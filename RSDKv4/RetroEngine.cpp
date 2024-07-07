@@ -504,7 +504,7 @@ void RetroEngine::Init()
         }
 
         char textBuf[0x100];
-        sprintf(textBuf, "RETRO ENGINE v4 USAGE:\n");
+        sprintf(textBuf, "RETRO ENGINE v4s USAGE:\n");
         fWrite(textBuf, 1, strlen(textBuf), f);
 
         sprintf(textBuf, "- Open the asset directory '%s' in a file browser\n", !rootDir[0] ? "./" : rootDir);
