@@ -40,6 +40,8 @@ If you want to transfer your save(s) from the official mobile version(s), the **
   * `F8` and `F9` will visualize touch screen and object hitboxes.
   * `F10` will activate a palette overlay that shows the game's 8 internal palettes in real time.
 * Added the idle screen dimming feature from Sonic Mania Plus, as well as allowing the user to disable it or set how long it takes for the screen to dim.
+* On android, the sonic 1 and 2 apps can be separated instead of needing to be enabled via a mod
+* Has a ported v5 dev menu (soon)
 
 # How to Build
 
