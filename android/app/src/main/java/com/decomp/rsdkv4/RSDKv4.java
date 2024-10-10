@@ -37,7 +37,7 @@ public class RSDKv4 extends SDLActivity {
     public String getBasePath() {
         Context c = getApplicationContext();
         requestPermissions(new String[]{Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE}, 0);
-        #if RETRO_SEPARATE_APPS == 2
+        if(RETRO_SEPARATE_APPS STREQUAL "2")
              String p = Environment.getExternalStorageDirectory().getAbsolutePath() + "/RSDK/v4/Sonic 2";
         #else 
              String p = Environment.getExternalStorageDirectory().getAbsolutePath() + "/RSDK/v4/Sonic 1";
