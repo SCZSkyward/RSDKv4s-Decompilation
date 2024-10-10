@@ -11,7 +11,7 @@ option(RETRO_NETWORKING "Enables or disables networking features used for Sonic 
 option(RETRO_USE_HW_RENDER "Enables usage of the Hardware Render, menus are unplayable without it." ON)
 option(RETRO_DISABLE_PLUS "Disables Plus. Should be set on for any public releases." OFF)
 option(RETRO_ORIGINAL_CODE "Removes any change that differs from the original code, a playable game can't be built this way." OFF)
-set(RETRO_SEPARATE_APPS 2 CACHE STRING "Decides if it builds for Sonic 1 being a separate app or Sonic 2 being a separate app. Defaults to Sonic 1")
+set(RETRO_SEPARATE_APPS 1 CACHE STRING "Decides if it builds for Sonic 1 being a separate app or Sonic 2 being a separate app. Defaults to Sonic 1")
 
 set(RETRO_SDL_VERSION 2 CACHE STRING "Select between SDL2 and SDL1, defaults to SDL2")
 
