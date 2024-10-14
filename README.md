@@ -42,6 +42,7 @@ If you want to transfer your save(s) from the official mobile version(s), the **
 * Added the idle screen dimming feature from Sonic Mania Plus, as well as allowing the user to disable it or set how long it takes for the screen to dim.
 * On android, the sonic 1 and 2 apps can be separated instead of needing to be enabled via a mod
 * Has a ported v5 dev menu (soon)
+* Discord RPC Support (soon)
 
 # How to Build
 
