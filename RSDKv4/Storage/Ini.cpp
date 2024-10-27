@@ -1,4 +1,4 @@
-#include "RetroEngine.hpp"
+#include "Core/RetroEngine.hpp"
 #if !RETRO_USE_ORIGINAL_CODE
 #include <stdlib.h>
 #include <algorithm>

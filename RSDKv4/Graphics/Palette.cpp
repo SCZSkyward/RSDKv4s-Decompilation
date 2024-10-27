@@ -1,4 +1,4 @@
-#include "RetroEngine.hpp"
+#include "Core/RetroEngine.hpp"
 
 // Palettes (as RGB888 Colors)
 PaletteEntry fullPalette32[PALETTE_COUNT][PALETTE_COLOR_COUNT];

@@ -1,4 +1,4 @@
-#include "RetroEngine.hpp"
+#include "Core/RetroEngine.hpp"
 
 int globalVariablesCount;
 int globalVariables[GLOBALVAR_COUNT];
