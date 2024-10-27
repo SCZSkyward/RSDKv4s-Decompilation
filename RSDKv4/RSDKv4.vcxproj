@@ -213,16 +213,18 @@ copy /Y "$(SolutionDir)dependencies\windows\glew\bin\Release\$(Platform)\glew32.
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\dependencies\all\tinyxml2\tinyxml2.cpp" />
-    <ClCompile Include="Animation.cpp" />
-    <ClCompile Include="Audio.cpp" />
-    <ClCompile Include="Collision.cpp" />
+    <ClCompile Include="Audio\Audio.cpp" />
     <ClCompile Include="Core\Math.cpp" />
     <ClCompile Include="Core\ModAPI.cpp" />
     <ClCompile Include="Core\Reader.cpp" />
-    <ClCompile Include="Debug.cpp" />
-    <ClCompile Include="Drawing.cpp" />
+    <ClCompile Include="Dev\Debug.cpp" />
+    <ClCompile Include="Graphics\Animation.cpp" />
+    <ClCompile Include="Graphics\Drawing.cpp" />
+    <ClCompile Include="Graphics\Palette.cpp" />
+    <ClCompile Include="Graphics\Scene3D.cpp" />
+    <ClCompile Include="Graphics\Sprite.cpp" />
     <ClCompile Include="Ini.cpp" />
-    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="Input\Input.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="NativeObjects\AboutScreen.cpp" />
     <ClCompile Include="NativeObjects\AchievementDisplay.cpp" />
@@ -265,15 +267,13 @@ copy /Y "$(SolutionDir)dependencies\windows\glew\bin\Release\$(Platform)\glew32.
     <ClCompile Include="NativeObjects\MultiplayerButton.cpp" />
     <ClCompile Include="NativeObjects\ZoneButton.cpp" />
     <ClCompile Include="Networking.cpp" />
-    <ClCompile Include="Object.cpp" />
-    <ClCompile Include="Palette.cpp" />
     <ClCompile Include="Renderer.cpp" />
     <ClCompile Include="RetroEngine.cpp" />
-    <ClCompile Include="Scene.cpp" />
-    <ClCompile Include="Scene3D.cpp" />
-    <ClCompile Include="Script.cpp" />
+    <ClCompile Include="Scene\Collision.cpp" />
+    <ClCompile Include="Scene\Object.cpp" />
+    <ClCompile Include="Scene\Scene.cpp" />
+    <ClCompile Include="Scene\Script.cpp" />
     <ClCompile Include="Userdata.cpp" />
-    <ClCompile Include="Sprite.cpp" />
     <ClCompile Include="String.cpp" />
     <ClCompile Include="Text.cpp" />
   </ItemGroup>
@@ -281,6 +281,7 @@ copy /Y "$(SolutionDir)dependencies\windows\glew\bin\Release\$(Platform)\glew32.
     <ClInclude Include="..\dependencies\all\tinyxml2\tinyxml2.h" />
     <ClInclude Include="Animation.hpp" />
     <ClInclude Include="Audio.hpp" />
+    <ClInclude Include="Audio\Audio.hpp" />
     <ClInclude Include="Collision.hpp" />
     <ClInclude Include="Debug.hpp" />
     <ClInclude Include="Drawing.hpp" />
@@ -332,6 +333,10 @@ copy /Y "$(SolutionDir)dependencies\windows\glew\bin\Release\$(Platform)\glew32.
     <ClInclude Include="Renderer.hpp" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="Scene3D.hpp" />
+    <ClInclude Include="Scene\Collision.hpp" />
+    <ClInclude Include="Scene\Object.hpp" />
+    <ClInclude Include="Scene\Scene.hpp" />
+    <ClInclude Include="Scene\Script.hpp" />
     <ClInclude Include="Sprite.hpp" />
     <ClInclude Include="Input.hpp" />
     <ClInclude Include="Math.hpp" />
