@@ -319,12 +319,12 @@ extern bool engineDebugMode;
 
 // Utils
 #if !RETRO_USE_ORIGINAL_CODE
-#include "Ini.hpp"
+#include "Storage/Ini.hpp"
 #endif
 
 #include "Core/Math.hpp"
 #include "Core/Reader.hpp"
-#include "String.hpp"
+#include "Core/String.hpp"
 #include "Graphics/Animation.hpp"
 #include "Audio/Audio.hpp"
 #include "Input/Input.hpp"
@@ -336,10 +336,10 @@ extern bool engineDebugMode;
 #include "Scene/Scene.hpp"
 #include "Scene/Script.hpp"
 #include "Graphics/Sprite.hpp"
-#include "Text.hpp"
-#include "Networking.hpp"
-#include "Renderer.hpp"
-#include "Userdata.hpp"
+#include "Storage/Text.hpp"
+#include "Core/Networking.hpp"
+#include "Graphics/Renderer.hpp"
+#include "Storage/Userdata.hpp"
 #include "Dev/Debug.hpp"
 #include "Core/ModAPI.hpp"
 

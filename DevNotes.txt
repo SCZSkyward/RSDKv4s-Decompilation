@@ -1,0 +1,7 @@
+TODO:
+
+* Core/RetroEngine.hpp
+format engine includes
+
+* General
+Remove RETRO_USE_ORIGINAL_CODE define

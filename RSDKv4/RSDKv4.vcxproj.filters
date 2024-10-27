@@ -43,6 +43,9 @@
     <Filter Include="Source Files\Audio">
       <UniqueIdentifier>{8ca1d426-3eeb-467e-a1de-790a086ec8d9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Storage">
+      <UniqueIdentifier>{0892ab67-2390-43ac-b930-e6a56fd96541}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -255,27 +258,24 @@
     <ClInclude Include="Scene\Script.hpp">
       <Filter>Source Files\Scene</Filter>
     </ClInclude>
+    <ClInclude Include="Graphics\Renderer.hpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Storage\Text.hpp">
+      <Filter>Source Files\Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="Storage\Userdata.hpp">
+      <Filter>Source Files\Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Networking.hpp">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="RetroEngine.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="String.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Ini.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Userdata.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Text.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Renderer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="NativeObjects\VirtualDPad.cpp">
@@ -392,9 +392,6 @@
     <ClCompile Include="NativeObjects\SettingsScreen.cpp">
       <Filter>Source Files\nativeEntities</Filter>
     </ClCompile>
-    <ClCompile Include="Networking.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\dependencies\all\tinyxml2\tinyxml2.cpp">
       <Filter>Source Files\dependencies</Filter>
     </ClCompile>
@@ -448,6 +445,24 @@
     </ClCompile>
     <ClCompile Include="Scene\Script.cpp">
       <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Renderer.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Storage\Text.cpp">
+      <Filter>Source Files\Storage</Filter>
+    </ClCompile>
+    <ClCompile Include="Storage\Userdata.cpp">
+      <Filter>Source Files\Storage</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Networking.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Storage\Ini.cpp">
+      <Filter>Source Files\Storage</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\String.cpp">
+      <Filter>Source Files\Core</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

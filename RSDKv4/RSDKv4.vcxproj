@@ -216,14 +216,16 @@ copy /Y "$(SolutionDir)dependencies\windows\glew\bin\Release\$(Platform)\glew32.
     <ClCompile Include="Audio\Audio.cpp" />
     <ClCompile Include="Core\Math.cpp" />
     <ClCompile Include="Core\ModAPI.cpp" />
+    <ClCompile Include="Core\Networking.cpp" />
     <ClCompile Include="Core\Reader.cpp" />
+    <ClCompile Include="Core\String.cpp" />
     <ClCompile Include="Dev\Debug.cpp" />
     <ClCompile Include="Graphics\Animation.cpp" />
     <ClCompile Include="Graphics\Drawing.cpp" />
     <ClCompile Include="Graphics\Palette.cpp" />
+    <ClCompile Include="Graphics\Renderer.cpp" />
     <ClCompile Include="Graphics\Scene3D.cpp" />
     <ClCompile Include="Graphics\Sprite.cpp" />
-    <ClCompile Include="Ini.cpp" />
     <ClCompile Include="Input\Input.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="NativeObjects\AboutScreen.cpp" />
@@ -266,16 +268,14 @@ copy /Y "$(SolutionDir)dependencies\windows\glew\bin\Release\$(Platform)\glew32.
     <ClCompile Include="NativeObjects\VirtualDPadM.cpp" />
     <ClCompile Include="NativeObjects\MultiplayerButton.cpp" />
     <ClCompile Include="NativeObjects\ZoneButton.cpp" />
-    <ClCompile Include="Networking.cpp" />
-    <ClCompile Include="Renderer.cpp" />
     <ClCompile Include="RetroEngine.cpp" />
     <ClCompile Include="Scene\Collision.cpp" />
     <ClCompile Include="Scene\Object.cpp" />
     <ClCompile Include="Scene\Scene.cpp" />
     <ClCompile Include="Scene\Script.cpp" />
-    <ClCompile Include="Userdata.cpp" />
-    <ClCompile Include="String.cpp" />
-    <ClCompile Include="Text.cpp" />
+    <ClCompile Include="Storage\Ini.cpp" />
+    <ClCompile Include="Storage\Text.cpp" />
+    <ClCompile Include="Storage\Userdata.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\dependencies\all\tinyxml2\tinyxml2.h" />
@@ -283,8 +283,10 @@ copy /Y "$(SolutionDir)dependencies\windows\glew\bin\Release\$(Platform)\glew32.
     <ClInclude Include="Audio.hpp" />
     <ClInclude Include="Audio\Audio.hpp" />
     <ClInclude Include="Collision.hpp" />
+    <ClInclude Include="Core\Networking.hpp" />
     <ClInclude Include="Debug.hpp" />
     <ClInclude Include="Drawing.hpp" />
+    <ClInclude Include="Graphics\Renderer.hpp" />
     <ClInclude Include="Ini.hpp" />
     <ClInclude Include="ModAPI.hpp" />
     <ClInclude Include="NativeObjects\AboutScreen.hpp" />
@@ -345,6 +347,8 @@ copy /Y "$(SolutionDir)dependencies\windows\glew\bin\Release\$(Platform)\glew32.
     <ClInclude Include="RetroEngine.hpp" />
     <ClInclude Include="Scene.hpp" />
     <ClInclude Include="Script.hpp" />
+    <ClInclude Include="Storage\Text.hpp" />
+    <ClInclude Include="Storage\Userdata.hpp" />
     <ClInclude Include="String.hpp" />
     <ClInclude Include="Text.hpp" />
     <ClInclude Include="Userdata.hpp" />
