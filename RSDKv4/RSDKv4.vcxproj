@@ -216,13 +216,14 @@ copy /Y "$(SolutionDir)dependencies\windows\glew\bin\Release\$(Platform)\glew32.
     <ClCompile Include="Animation.cpp" />
     <ClCompile Include="Audio.cpp" />
     <ClCompile Include="Collision.cpp" />
+    <ClCompile Include="Core\Math.cpp" />
+    <ClCompile Include="Core\ModAPI.cpp" />
+    <ClCompile Include="Core\Reader.cpp" />
     <ClCompile Include="Debug.cpp" />
     <ClCompile Include="Drawing.cpp" />
     <ClCompile Include="Ini.cpp" />
     <ClCompile Include="Input.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Math.cpp" />
-    <ClCompile Include="ModAPI.cpp" />
     <ClCompile Include="NativeObjects\AboutScreen.cpp" />
     <ClCompile Include="NativeObjects\AchievementDisplay.cpp" />
     <ClCompile Include="NativeObjects\AchievementsButton.cpp" />
@@ -266,7 +267,6 @@ copy /Y "$(SolutionDir)dependencies\windows\glew\bin\Release\$(Platform)\glew32.
     <ClCompile Include="Networking.cpp" />
     <ClCompile Include="Object.cpp" />
     <ClCompile Include="Palette.cpp" />
-    <ClCompile Include="Reader.cpp" />
     <ClCompile Include="Renderer.cpp" />
     <ClCompile Include="RetroEngine.cpp" />
     <ClCompile Include="Scene.cpp" />
