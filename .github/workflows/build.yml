@@ -14,28 +14,6 @@ env:
   GENERAL_LINUX_FLAGS: "-DCMAKE_CXX_FLAGS='-U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=0'"
 
 jobs:
-  v4-windows:
-    runs-on: windows-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          submodules: recursive
-      - name: Install dependencies
-        run: vcpkg install glew sdl2 libogg libvorbis --triplet=x86-windows-static
-      - name: Build RSDKv4
-        run: |
-          cmake -B build ${{env.GENERAL_FLAGS}} ${{env.GENERAL_WIN_FLAGS}} ${{env.WIN32_FLAGS}}
-          cmake --build build --parallel --config Release
-      - name: Move artifacts
-        run: |
-          mkdir artifacts
-          mv ./build/Release/*.exe ./artifacts
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: v4-windows
-          path: artifacts
   v4-windows-x64:
     runs-on: windows-latest
     steps:
