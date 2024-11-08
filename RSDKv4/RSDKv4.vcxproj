@@ -114,7 +114,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>RETRO_USING_OPENGL;RETRO_USE_SDL2;_CRT_SECURE_NO_WARNINGS;USE_SW_REN;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)RSDKv4/;$(SolutionDir)RSDKv4/NativeObjects/;$(SolutionDir)dependencies/all/asio/asio/include/;$(SolutionDir)dependencies/all/stb-image/;$(SolutionDir)dependencies/all/tinyxml2/;$(SolutionDir)dependencies/windows/SDL2/include/;$(SolutionDir)dependencies/windows/libogg/include/;$(SolutionDir)dependencies/windows/libvorbis/include/;$(SolutionDir)dependencies/windows/glew/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)RSDKv4/;$(SolutionDir)RSDKv4/Scene\ObjectsNative\/;$(SolutionDir)dependencies/all/asio/asio/include/;$(SolutionDir)dependencies/all/stb-image/;$(SolutionDir)dependencies/all/tinyxml2/;$(SolutionDir)dependencies/windows/SDL2/include/;$(SolutionDir)dependencies/windows/libogg/include/;$(SolutionDir)dependencies/windows/libvorbis/include/;$(SolutionDir)dependencies/windows/glew/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -138,7 +138,7 @@ copy /Y "$(SolutionDir)dependencies\windows\glew\bin\Release\$(Platform)\glew32.
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>RETRO_USING_OPENGL;RETRO_USE_SDL2;_CRT_SECURE_NO_WARNINGS;USE_SW_REN;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)RSDKv4/;$(SolutionDir)RSDKv4/NativeObjects/;$(SolutionDir)dependencies/all/asio/asio/include/;$(SolutionDir)dependencies/all/stb-image/;$(SolutionDir)dependencies/all/tinyxml2/;$(SolutionDir)dependencies/windows/SDL2/include/;$(SolutionDir)dependencies/windows/libogg/include/;$(SolutionDir)dependencies/windows/libvorbis/include/;$(SolutionDir)dependencies/windows/glew/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)RSDKv4/;$(SolutionDir)RSDKv4/Scene\ObjectsNative\/;$(SolutionDir)dependencies/all/asio/asio/include/;$(SolutionDir)dependencies/all/stb-image/;$(SolutionDir)dependencies/all/tinyxml2/;$(SolutionDir)dependencies/windows/SDL2/include/;$(SolutionDir)dependencies/windows/libogg/include/;$(SolutionDir)dependencies/windows/libvorbis/include/;$(SolutionDir)dependencies/windows/glew/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -164,7 +164,7 @@ copy /Y "$(SolutionDir)dependencies\windows\glew\bin\Release\$(Platform)\glew32.
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>RETRO_USING_OPENGL;RETRO_USE_SDL2;_CRT_SECURE_NO_WARNINGS;USE_SW_REN;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)RSDKv4/;$(SolutionDir)RSDKv4/NativeObjects/;$(SolutionDir)dependencies/all/asio/asio/include/;$(SolutionDir)dependencies/all/stb-image/;$(SolutionDir)dependencies/all/tinyxml2/;$(SolutionDir)dependencies/windows/SDL2/include/;$(SolutionDir)dependencies/windows/libogg/include/;$(SolutionDir)dependencies/windows/libvorbis/include/;$(SolutionDir)dependencies/windows/glew/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)RSDKv4/;$(SolutionDir)RSDKv4/Scene\ObjectsNative\/;$(SolutionDir)dependencies/all/asio/asio/include/;$(SolutionDir)dependencies/all/stb-image/;$(SolutionDir)dependencies/all/tinyxml2/;$(SolutionDir)dependencies/windows/SDL2/include/;$(SolutionDir)dependencies/windows/libogg/include/;$(SolutionDir)dependencies/windows/libvorbis/include/;$(SolutionDir)dependencies/windows/glew/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -192,7 +192,7 @@ copy /Y "$(SolutionDir)dependencies\windows\glew\bin\Release\$(Platform)\glew32.
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>RETRO_USING_OPENGL;RETRO_USE_SDL2;USE_SW_REN;_CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)RSDKv4/;$(SolutionDir)RSDKv4/NativeObjects/;$(SolutionDir)dependencies/all/asio/asio/include/;$(SolutionDir)dependencies/all/stb-image/;$(SolutionDir)dependencies/all/tinyxml2/;$(SolutionDir)dependencies/windows/SDL2/include/;$(SolutionDir)dependencies/windows/libogg/include/;$(SolutionDir)dependencies/windows/libvorbis/include/;$(SolutionDir)dependencies/windows/glew/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)RSDKv4/;$(SolutionDir)RSDKv4/Scene\ObjectsNative\/;$(SolutionDir)dependencies/all/asio/asio/include/;$(SolutionDir)dependencies/all/stb-image/;$(SolutionDir)dependencies/all/tinyxml2/;$(SolutionDir)dependencies/windows/SDL2/include/;$(SolutionDir)dependencies/windows/libogg/include/;$(SolutionDir)dependencies/windows/libvorbis/include/;$(SolutionDir)dependencies/windows/glew/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -279,70 +279,70 @@ copy /Y "$(SolutionDir)dependencies\windows\glew\bin\Release\$(Platform)\glew32.
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\dependencies\all\tinyxml2\tinyxml2.h" />
-    <ClInclude Include="Animation.hpp" />
-    <ClInclude Include="Audio.hpp" />
-    <ClInclude Include="Collision.hpp" />
-    <ClInclude Include="Debug.hpp" />
-    <ClInclude Include="Drawing.hpp" />
-    <ClInclude Include="Ini.hpp" />
-    <ClInclude Include="ModAPI.hpp" />
-    <ClInclude Include="NativeObjects\AboutScreen.hpp" />
-    <ClInclude Include="NativeObjects\AchievementDisplay.hpp" />
-    <ClInclude Include="NativeObjects\AchievementsButton.hpp" />
-    <ClInclude Include="NativeObjects\AchievementsMenu.hpp" />
-    <ClInclude Include="NativeObjects\BackButton.hpp" />
-    <ClInclude Include="NativeObjects\CreditText.hpp" />
-    <ClInclude Include="NativeObjects\CWSplash.hpp" />
-    <ClInclude Include="NativeObjects\DialogPanel.hpp" />
-    <ClInclude Include="NativeObjects\FadeScreen.hpp" />
-    <ClInclude Include="NativeObjects\InstructionsScreen.hpp" />
-    <ClInclude Include="NativeObjects\LeaderboardsButton.hpp" />
-    <ClInclude Include="NativeObjects\MenuBG.hpp" />
-    <ClInclude Include="NativeObjects\MenuControl.hpp" />
-    <ClInclude Include="NativeObjects\ModInfoButton.hpp" />
-    <ClInclude Include="NativeObjects\ModsButton.hpp" />
-    <ClInclude Include="NativeObjects\ModsMenu.hpp" />
-    <ClInclude Include="NativeObjects\MultiplayerHandler.hpp" />
-    <ClInclude Include="NativeObjects\MultiplayerScreen.hpp" />
-    <ClInclude Include="NativeObjects\NativeObjects.hpp" />
-    <ClInclude Include="NativeObjects\OptionsButton.hpp" />
-    <ClInclude Include="NativeObjects\OptionsMenu.hpp" />
-    <ClInclude Include="NativeObjects\PauseMenu.hpp" />
-    <ClInclude Include="NativeObjects\PlayerSelectScreen.hpp" />
-    <ClInclude Include="NativeObjects\PushButton.hpp" />
-    <ClInclude Include="NativeObjects\RecordsScreen.hpp" />
-    <ClInclude Include="NativeObjects\RetroGameLoop.hpp" />
-    <ClInclude Include="NativeObjects\SaveSelect.hpp" />
-    <ClInclude Include="NativeObjects\SegaIDButton.hpp" />
-    <ClInclude Include="NativeObjects\SegaSplash.hpp" />
-    <ClInclude Include="NativeObjects\SettingsScreen.hpp" />
-    <ClInclude Include="NativeObjects\StaffCredits.hpp" />
-    <ClInclude Include="NativeObjects\StartGameButton.hpp" />
-    <ClInclude Include="NativeObjects\SubMenuButton.hpp" />
-    <ClInclude Include="NativeObjects\TextLabel.hpp" />
-    <ClInclude Include="NativeObjects\TimeAttack.hpp" />
-    <ClInclude Include="NativeObjects\TimeAttackButton.hpp" />
-    <ClInclude Include="NativeObjects\TitleScreen.hpp" />
-    <ClInclude Include="NativeObjects\VirtualDPad.hpp" />
-    <ClInclude Include="NativeObjects\VirtualDPadM.hpp" />
-    <ClInclude Include="NativeObjects\MultiplayerButton.hpp" />
-    <ClInclude Include="NativeObjects\ZoneButton.hpp" />
-    <ClInclude Include="Networking.hpp" />
-    <ClInclude Include="Reader.hpp" />
-    <ClInclude Include="Renderer.hpp" />
+    <ClInclude Include="Graphics\Animation.hpp" />
+    <ClInclude Include="Audio\Audio.hpp" />
+    <ClInclude Include="Scene\Collision.hpp" />
+    <ClInclude Include="Dev\Debug.hpp" />
+    <ClInclude Include="Graphics\Drawing.hpp" />
+    <ClInclude Include="Storage\Ini.hpp" />
+    <ClInclude Include="Core\ModAPI.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\AboutScreen.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\AchievementDisplay.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\AchievementsButton.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\AchievementsMenu.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\BackButton.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\CreditText.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\CWSplash.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\DialogPanel.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\FadeScreen.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\InstructionsScreen.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\LeaderboardsButton.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\MenuBG.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\MenuControl.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\ModInfoButton.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\ModsButton.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\ModsMenu.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\MultiplayerHandler.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\MultiplayerScreen.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\NativeObjects.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\OptionsButton.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\OptionsMenu.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\PauseMenu.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\PlayerSelectScreen.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\PushButton.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\RecordsScreen.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\RetroGameLoop.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\SaveSelect.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\SegaIDButton.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\SegaSplash.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\SettingsScreen.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\StaffCredits.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\StartGameButton.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\SubMenuButton.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\TextLabel.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\TimeAttack.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\TimeAttackButton.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\TitleScreen.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\VirtualDPad.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\VirtualDPadM.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\MultiplayerButton.hpp" />
+    <ClInclude Include="Scene\ObjectsNative\ZoneButton.hpp" />
+    <ClInclude Include="Core\Networking.hpp" />
+    <ClInclude Include="Core\Reader.hpp" />
+    <ClInclude Include="Graphics\Renderer.hpp" />
     <ClInclude Include="resource.h" />
-    <ClInclude Include="Scene3D.hpp" />
-    <ClInclude Include="Sprite.hpp" />
-    <ClInclude Include="Input.hpp" />
-    <ClInclude Include="Math.hpp" />
-    <ClInclude Include="Object.hpp" />
-    <ClInclude Include="Palette.hpp" />
-    <ClInclude Include="RetroEngine.hpp" />
-    <ClInclude Include="Scene.hpp" />
-    <ClInclude Include="Script.hpp" />
-    <ClInclude Include="String.hpp" />
-    <ClInclude Include="Text.hpp" />
-    <ClInclude Include="Userdata.hpp" />
+    <ClInclude Include="Graphics\Scene3D.hpp" />
+    <ClInclude Include="Graphics\Sprite.hpp" />
+    <ClInclude Include="Input\Input.hpp" />
+    <ClInclude Include="Core\Math.hpp" />
+    <ClInclude Include="Scene\Object.hpp" />
+    <ClInclude Include="Graphics\Palette.hpp" />
+    <ClInclude Include="Core\RetroEngine.hpp" />
+    <ClInclude Include="Scene\Scene.hpp" />
+    <ClInclude Include="Scene\Script.hpp" />
+    <ClInclude Include="Core\String.hpp" />
+    <ClInclude Include="Storage\Text.hpp" />
+    <ClInclude Include="Storage\Userdata.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="RSDKv4.rc" />
