@@ -42,7 +42,7 @@ set(RETRO_FILES
     RSDKv4/Graphics/Palette.cpp
     RSDKv4/Core/Reader.cpp
     RSDKv4/Graphics/Renderer.cpp
-    RSDKv4/RetroEngine.cpp
+    RSDKv4/Core/RetroEngine.cpp
     RSDKv4/Scene/Scene.cpp
     RSDKv4/Graphics/Scene3D.cpp
     RSDKv4/Scene/Script.cpp
