@@ -10,8 +10,6 @@
 #define RETRO_USE_ORIGINAL_CODE (0)
 #endif
 
-#define RETRO_SEPARATE_APPS (1)
-
 #ifndef RETRO_USE_MOD_LOADER
 #define RETRO_USE_MOD_LOADER (!RETRO_USE_ORIGINAL_CODE && 1)
 #endif
