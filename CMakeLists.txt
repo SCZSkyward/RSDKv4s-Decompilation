@@ -26,70 +26,70 @@ set(RETRO_OUTPUT_NAME ${RETRO_NAME} CACHE STRING "The exported name of the execu
 
 set(RETRO_FILES
     dependencies/all/tinyxml2/tinyxml2.cpp
-    RSDKv4/Animation.cpp
-    RSDKv4/Audio.cpp
-    RSDKv4/Collision.cpp
-    RSDKv4/Debug.cpp
-    RSDKv4/Drawing.cpp
-    RSDKv4/Ini.cpp
-    RSDKv4/Input.cpp
+    RSDKv4/Graphics/Animation.cpp
+    RSDKv4/Audio/Audio.cpp
+    RSDKv4/Scene/Collision.cpp
+    RSDKv4/Dev/Debug.cpp
+    RSDKv4/Graphics/Drawing.cpp
+    RSDKv4/Storage/Ini.cpp
+    RSDKv4/Input/Input.cpp
     RSDKv4/fcaseopen.c
     RSDKv4/main.cpp
-    RSDKv4/Math.cpp
-    RSDKv4/ModAPI.cpp
-    RSDKv4/Networking.cpp
-    RSDKv4/Object.cpp
-    RSDKv4/Palette.cpp
-    RSDKv4/Reader.cpp
-    RSDKv4/Renderer.cpp
+    RSDKv4/Core/Math.cpp
+    RSDKv4/Core/ModAPI.cpp
+    RSDKv4/Core/Networking.cpp
+    RSDKv4/Scene/Object.cpp
+    RSDKv4/Graphics/Palette.cpp
+    RSDKv4/Core/Reader.cpp
+    RSDKv4/Graphics/Renderer.cpp
     RSDKv4/RetroEngine.cpp
-    RSDKv4/Scene.cpp
-    RSDKv4/Scene3D.cpp
-    RSDKv4/Script.cpp
-    RSDKv4/Sprite.cpp
-    RSDKv4/String.cpp
-    RSDKv4/Text.cpp
-    RSDKv4/Userdata.cpp
-    RSDKv4/NativeObjects/AboutScreen.cpp
-    RSDKv4/NativeObjects/AchievementDisplay.cpp
-    RSDKv4/NativeObjects/AchievementsButton.cpp
-    RSDKv4/NativeObjects/AchievementsMenu.cpp
-    RSDKv4/NativeObjects/BackButton.cpp
-    RSDKv4/NativeObjects/CWSplash.cpp
-    RSDKv4/NativeObjects/CreditText.cpp
-    RSDKv4/NativeObjects/DialogPanel.cpp
-    RSDKv4/NativeObjects/FadeScreen.cpp
-    RSDKv4/NativeObjects/InstructionsScreen.cpp
-    RSDKv4/NativeObjects/LeaderboardsButton.cpp
-    RSDKv4/NativeObjects/MenuBG.cpp
-    RSDKv4/NativeObjects/MenuControl.cpp
-    RSDKv4/NativeObjects/ModInfoButton.cpp
-    RSDKv4/NativeObjects/ModsButton.cpp
-    RSDKv4/NativeObjects/ModsMenu.cpp
-    RSDKv4/NativeObjects/MultiplayerButton.cpp
-    RSDKv4/NativeObjects/MultiplayerHandler.cpp
-    RSDKv4/NativeObjects/MultiplayerScreen.cpp
-    RSDKv4/NativeObjects/OptionsButton.cpp
-    RSDKv4/NativeObjects/OptionsMenu.cpp
-    RSDKv4/NativeObjects/PauseMenu.cpp
-    RSDKv4/NativeObjects/PlayerSelectScreen.cpp
-    RSDKv4/NativeObjects/PushButton.cpp
-    RSDKv4/NativeObjects/RecordsScreen.cpp
-    RSDKv4/NativeObjects/RetroGameLoop.cpp
-    RSDKv4/NativeObjects/SaveSelect.cpp
-    RSDKv4/NativeObjects/SegaIDButton.cpp
-    RSDKv4/NativeObjects/SegaSplash.cpp
-    RSDKv4/NativeObjects/SettingsScreen.cpp
-    RSDKv4/NativeObjects/StaffCredits.cpp
-    RSDKv4/NativeObjects/StartGameButton.cpp
-    RSDKv4/NativeObjects/SubMenuButton.cpp
-    RSDKv4/NativeObjects/TextLabel.cpp
-    RSDKv4/NativeObjects/TimeAttack.cpp
-    RSDKv4/NativeObjects/TimeAttackButton.cpp
-    RSDKv4/NativeObjects/TitleScreen.cpp
-    RSDKv4/NativeObjects/VirtualDPad.cpp
-    RSDKv4/NativeObjects/VirtualDPadM.cpp
-    RSDKv4/NativeObjects/ZoneButton.cpp
+    RSDKv4/Scene/Scene.cpp
+    RSDKv4/Graphics/Scene3D.cpp
+    RSDKv4/Scene/Script.cpp
+    RSDKv4/Graphics/Sprite.cpp
+    RSDKv4/Core/String.cpp
+    RSDKv4/Storage/Text.cpp
+    RSDKv4/Storage/Userdata.cpp
+    RSDKv4/Scene/ObjectsNative/AboutScreen.cpp
+    RSDKv4/Scene/ObjectsNative/AchievementDisplay.cpp
+    RSDKv4/Scene/ObjectsNative/AchievementsButton.cpp
+    RSDKv4/Scene/ObjectsNative/AchievementsMenu.cpp
+    RSDKv4/Scene/ObjectsNative/BackButton.cpp
+    RSDKv4/Scene/ObjectsNative/CWSplash.cpp
+    RSDKv4/Scene/ObjectsNative/CreditText.cpp
+    RSDKv4/Scene/ObjectsNative/DialogPanel.cpp
+    RSDKv4/Scene/ObjectsNative/FadeScreen.cpp
+    RSDKv4/Scene/ObjectsNative/InstructionsScreen.cpp
+    RSDKv4/Scene/ObjectsNative/LeaderboardsButton.cpp
+    RSDKv4/Scene/ObjectsNative/MenuBG.cpp
+    RSDKv4/Scene/ObjectsNative/MenuControl.cpp
+    RSDKv4/Scene/ObjectsNative/ModInfoButton.cpp
+    RSDKv4/Scene/ObjectsNative/ModsButton.cpp
+    RSDKv4/Scene/ObjectsNative/ModsMenu.cpp
+    RSDKv4/Scene/ObjectsNative/MultiplayerButton.cpp
+    RSDKv4/Scene/ObjectsNative/MultiplayerHandler.cpp
+    RSDKv4/Scene/ObjectsNative/MultiplayerScreen.cpp
+    RSDKv4/Scene/ObjectsNative/OptionsButton.cpp
+    RSDKv4/Scene/ObjectsNative/OptionsMenu.cpp
+    RSDKv4/Scene/ObjectsNative/PauseMenu.cpp
+    RSDKv4/Scene/ObjectsNative/PlayerSelectScreen.cpp
+    RSDKv4/Scene/ObjectsNative/PushButton.cpp
+    RSDKv4/Scene/ObjectsNative/RecordsScreen.cpp
+    RSDKv4/Scene/ObjectsNative/RetroGameLoop.cpp
+    RSDKv4/Scene/ObjectsNative/SaveSelect.cpp
+    RSDKv4/Scene/ObjectsNative/SegaIDButton.cpp
+    RSDKv4/Scene/ObjectsNative/SegaSplash.cpp
+    RSDKv4/Scene/ObjectsNative/SettingsScreen.cpp
+    RSDKv4/Scene/ObjectsNative/StaffCredits.cpp
+    RSDKv4/Scene/ObjectsNative/StartGameButton.cpp
+    RSDKv4/Scene/ObjectsNative/SubMenuButton.cpp
+    RSDKv4/Scene/ObjectsNative/TextLabel.cpp
+    RSDKv4/Scene/ObjectsNative/TimeAttack.cpp
+    RSDKv4/Scene/ObjectsNative/TimeAttackButton.cpp
+    RSDKv4/Scene/ObjectsNative/TitleScreen.cpp
+    RSDKv4/Scene/ObjectsNative/VirtualDPad.cpp
+    RSDKv4/Scene/ObjectsNative/VirtualDPadM.cpp
+    RSDKv4/Scene/ObjectsNative/ZoneButton.cpp
 )
 
 if(NOT PLATFORM)
@@ -166,7 +166,7 @@ endif()
 
 target_include_directories(RetroEngine PRIVATE
     RSDKv4/
-    RSDKv4/NativeObjects/
+    RSDKv4/Scene/ObjectsNative/
     dependencies/all/stb-image/
     dependencies/all/tinyxml2/
 )
