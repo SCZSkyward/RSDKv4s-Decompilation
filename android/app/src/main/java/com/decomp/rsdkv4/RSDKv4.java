@@ -35,20 +35,11 @@ public class RSDKv4 extends SDLActivity {
     }
 
     public String getBasePath() {
-        #if RETRO_SEPARATE_APPS == 1
-            Context c = getApplicationContext();
-            requestPermissions(new String[]{Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE}, 0);
-            String p = Environment.getExternalStorageDirectory().getAbsolutePath() + "/RSDK/v4/Sonic 1";
-            //getExternalStorageDirectory is deprecated. I do not care.
-            new File(p).mkdirs();
-            return p + "/";
-        #else
-            Context c = getApplicationContext();
-            requestPermissions(new String[]{Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE}, 0);
-            String p = Environment.getExternalStorageDirectory().getAbsolutePath() + "/RSDK/v4/Sonic 2";
-            //getExternalStorageDirectory is deprecated. I do not care.
-            new File(p).mkdirs();
-            return p + "/";
-        #endif
+        Context c = getApplicationContext();
+        requestPermissions(new String[]{Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE}, 0);
+        String p = Environment.getExternalStorageDirectory().getAbsolutePath() + "/RSDK/v4/Sonic 1";
+        //getExternalStorageDirectory is deprecated. I do not care.
+        new File(p).mkdirs();
+        return p + "/";
     }
 }
