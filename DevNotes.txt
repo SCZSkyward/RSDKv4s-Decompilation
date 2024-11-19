@@ -5,3 +5,8 @@ format engine includes
 
 * General
 Remove RETRO_USE_ORIGINAL_CODE define
+Port the v5 dev menu
+Add in Discord RPC (then steal and implement into WZ+)
+
+* Android
+Make CMake flag for separate sonic 1 and 2 apps and make it work correctly 
