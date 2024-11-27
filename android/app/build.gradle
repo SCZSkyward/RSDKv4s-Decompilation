@@ -14,7 +14,7 @@ android {
     compileSdkVersion 29
     defaultConfig {
         if (buildAsApplication) {
-            applicationId "com.decomp.rsdkv4"
+            applicationId "com.decomp.sonic1"
         }
         minSdkVersion 23
         targetSdkVersion 29
